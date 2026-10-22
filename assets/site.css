@@ -48,3 +48,16 @@
 /* Visible separator between adjacent resource links. */
 .project-resources{align-items:baseline;column-gap:12px;row-gap:5px}
 .resource-separator{color:#8798a0;font-size:13px;flex:0 0 auto}
+
+/* Field-specific bibliography links, matching ordinary resource links. */
+.related-publications{margin:12px 0 0;font-size:13px}
+.related-publications a{color:var(--teal);text-decoration:underline;text-underline-offset:3px}
+.pub-page-title{font-size:clamp(26px,3vw,34px);margin:8px 0 14px}
+.pub-intro{max-width:860px;color:var(--muted);font-size:14px}
+.pub-intro a,.pub-entry-title a{color:var(--teal);text-decoration:underline;text-underline-offset:3px}
+.pub-toc{display:flex;flex-wrap:wrap;gap:9px 18px;padding:17px 0;border-bottom:1px solid var(--line)}
+.pub-toc a{font-size:13px;color:var(--teal);text-decoration:underline;text-underline-offset:3px}
+.pub-group{padding:29px 0 13px;border-bottom:1px solid var(--line);scroll-margin-top:95px}
+.pub-group h2{font-size:21px;margin:0 0 12px}
+.pub-entries{padding-left:22px}.pub-entries li{padding:5px 0 12px}
+.pub-entry-title{font-size:14px;font-weight:600}.pub-entry-meta,.pub-pending{font-size:13px;color:var(--muted)}
