@@ -5,3 +5,6 @@
 
 /* Deliberately restrained, text-first design. No decorative project illustrations. */
 .hero-shell{grid-template-columns:minmax(0,1fr);min-height:350px;max-width:1120px}.hero-copy{max-width:760px}.project-card{display:flex;flex-direction:column}.project-content{height:100%;display:flex;flex-direction:column}.project-bottom{margin-top:auto}.project-art,.hero-art{display:none!important}
+
+/* Lab identity first, restrained title design inspired by peer lab sites. */
+.brand-en{font-size:10px;font-weight:500;letter-spacing:.02em;color:#6d8089;margin-left:7px}.hero h1{font-size:clamp(38px,5vw,64px);line-height:1.25;margin:20px 0 14px}.hero-roman{display:block;font-size:clamp(15px,1.7vw,22px);letter-spacing:.02em;font-weight:450;color:#c6dee6;margin-top:8px}.hero-mission{font-size:clamp(19px,2.35vw,29px);line-height:1.5;font-weight:650;margin:22px 0 12px;color:#fff}.hero-lead{margin-top:10px}.hero-note{margin-top:24px}.hero-shell{min-height:360px;padding-top:58px;padding-bottom:55px}@media(max-width:600px){.brand-en{display:block;margin-left:0;font-size:9px}.hero h1{font-size:38px}.hero-mission{font-size:21px}.hero-shell{padding-top:42px;padding-bottom:40px}}
