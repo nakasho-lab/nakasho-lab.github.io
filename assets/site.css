@@ -16,35 +16,14 @@
 @media(max-width:1000px){.nav{display:none}.mobile-menu{display:block;position:relative}.mobile-dropdown{position:absolute;right:0;top:31px;background:white;color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:15px;width:min(300px,85vw);box-shadow:0 12px 30px #0b273522}.mobile-dropdown a{display:block;padding:7px}}
 @media(max-width:600px){.hero h1{font-size:35px}.hero-roman{font-size:17px}.hero-mission{font-size:21px;margin-top:23px}.hero-lead{font-size:14px}.brand-text strong{font-size:14px}.brand-en{display:block;margin:1px 0 0;font-size:10px}.project-content{padding:18px}.hero-shell{padding-top:39px;padding-bottom:41px}}
 
-/* Conservative university laboratory style: functional, unobtrusive. */
-:root{--ink:#222;--muted:#555;--teal:#315b70;--deep:#243a48;--line:#d9d9d9;--paper:#fff}
-body{background:#fff;color:#222;font-size:15px;line-height:1.8}
-.site-header{background:#fff;backdrop-filter:none}
-.brand-mark{display:none}
-.brand-text strong{font-size:16px;font-weight:700}
-.brand-en{font-size:12px;color:#666}
-.nav{font-weight:500}
-.hero{background:#fff;color:#222;border-bottom:1px solid #ddd}
-.hero-shell{padding-top:42px;padding-bottom:42px}
-.kicker{color:#555;font-size:13px;font-weight:500;letter-spacing:0}
-.hero h1{font-size:clamp(31px,3vw,38px);font-weight:700;color:#222;letter-spacing:0;line-height:1.4;margin:16px 0 0}
-.hero-roman{color:#666;font-size:16px;font-weight:400;margin-top:0}
-.hero-mission{font-size:20px;line-height:1.6;font-weight:600;color:#333;margin:24px 0 12px;letter-spacing:0}
-.hero-lead{font-size:15px;line-height:1.9;color:#333;max-width:45em}
-.hero-note{color:#666}
+/* Restore original navy/teal palette; keep lab name modest and legible. */
+.hero{background:linear-gradient(125deg,#0e2945,#1c5568);color:#fff}
+.hero-shell{padding-top:42px;padding-bottom:43px}
+.hero h1{font-size:clamp(28px,2.6vw,34px);font-weight:650;letter-spacing:0;line-height:1.38;margin:15px 0 0;color:#fff}
+.hero-roman{font-size:15px;line-height:1.5;font-weight:400;color:#c6dee6;margin-top:2px}
+.hero-mission{font-size:clamp(20px,2vw,25px);font-weight:600;line-height:1.6;color:#fff;margin:22px 0 10px}
+.kicker{color:#aee6dc;font-size:12px}
+.hero-lead{color:#e0eaf0;max-width:44em;font-size:15px}
+.hero-note{color:#b8cbd5}
 .hero-bottom{display:none}
-.section{padding:44px 0}
-.section-eyebrow,.achievement-eyebrow{color:#666;letter-spacing:0;font-size:11px}
-.section-title{font-size:25px;letter-spacing:0}
-.research-group .label-prefix{color:#555}
-.project-card,.prior-card,.outcome-card,.mizar-output-card,.pub,.profile{border-radius:4px;border-color:#ddd;box-shadow:none}
-.results,.contact{background:#f7f7f7}
-.project-card h3{font-size:17px;font-weight:650}
-.project-card p,.section-desc{font-size:14px;color:#444}
-.project-tag,.project-link,.outcome-label,.mizar-output-index,.pub-year{color:#315b70}
-.project-status{border-color:#ddd;color:#555;background:#fff}
-.outcome-value{color:#333}
-footer{background:#f5f5f5;color:#333;border-top:1px solid #ddd}
-footer a{color:#315b70}
-.footer-note{color:#666}
-@media(max-width:600px){.hero h1{font-size:31px}.hero-mission{font-size:19px}.hero-lead{font-size:14px}.section{padding:34px 0}}
+@media(max-width:600px){.hero h1{font-size:29px}.hero-mission{font-size:20px}.hero-shell{padding-top:37px;padding-bottom:40px}.hero-lead{font-size:14px}}
