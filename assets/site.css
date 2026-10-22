@@ -27,3 +27,8 @@
 .hero-note{color:#b8cbd5}
 .hero-bottom{display:none}
 @media(max-width:600px){.hero h1{font-size:29px}.hero-mission{font-size:20px}.hero-shell{padding-top:37px;padding-bottom:40px}.hero-lead{font-size:14px}}
+
+/* Ordinary text links; no decorative external-link arrows. */
+.project-link,.mizar-output-links a,.profile-links a,.footer-links a,.inline-note a,.contact-info a,.pub-title{ text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:1px; }
+.project-link:hover,.mizar-output-links a:hover,.profile-links a:hover,.footer-links a:hover,.inline-note a:hover,.contact-info a:hover,.pub:hover .pub-title{ text-decoration-thickness:2px; }
+.pub-arrow{display:none}
