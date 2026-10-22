@@ -39,3 +39,8 @@
 .hero-sentence{display:block}
 .hero-sentence + .hero-sentence{margin-top:0.35em}
 @media(max-width:900px){.hero-copy{max-width:100%}}
+
+/* Links to actual research software and resources, without decorative arrows. */
+.project-resources{display:flex;flex-wrap:wrap;gap:5px 16px;margin-top:13px}
+.project-resources a{color:var(--teal);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;font-size:13px}
+.project-resources a:hover{text-decoration-thickness:2px}
