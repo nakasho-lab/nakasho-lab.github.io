@@ -44,3 +44,7 @@
 .project-resources{display:flex;flex-wrap:wrap;gap:5px 16px;margin-top:13px}
 .project-resources a{color:var(--teal);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;font-size:13px}
 .project-resources a:hover{text-decoration-thickness:2px}
+
+/* Visible separator between adjacent resource links. */
+.project-resources{align-items:baseline;column-gap:12px;row-gap:5px}
+.resource-separator{color:#8798a0;font-size:13px;flex:0 0 auto}
