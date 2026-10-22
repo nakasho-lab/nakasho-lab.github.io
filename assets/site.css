@@ -32,3 +32,10 @@
 .project-link,.mizar-output-links a,.profile-links a,.footer-links a,.inline-note a,.contact-info a,.pub-title{ text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:1px; }
 .project-link:hover,.mizar-output-links a:hover,.profile-links a:hover,.footer-links a:hover,.inline-note a:hover,.contact-info a:hover,.pub:hover .pub-title{ text-decoration-thickness:2px; }
 .pub-arrow{display:none}
+
+/* Hero copy: sentence-level breaks on desktop; natural wrapping on narrower viewports. */
+.hero-copy{max-width:1000px}
+.hero-lead{max-width:100%;line-height:1.9}
+.hero-sentence{display:block}
+.hero-sentence + .hero-sentence{margin-top:0.35em}
+@media(max-width:900px){.hero-copy{max-width:100%}}
