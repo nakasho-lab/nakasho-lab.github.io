@@ -1,21 +1,24 @@
-# 中正研究室ウェブサイト / Nakasho Laboratory
+# Nakasho Laboratory Website / 中正研究室ウェブサイト
 
-岩手県立大学ソフトウェア情報学部・社会システムデザインコース、中正研究室のウェブサイト制作リポジトリです。
+岩手県立大学ソフトウェア情報学部 社会システムデザインコース、中正研究室のウェブサイトです。
 
-**Status:** 非公開・制作中（GitHub Pagesはまだ設定しません）。
+**Status: Draft — private repository; GitHub Pages not enabled.**
 
-## サイトの方針
+## Structure
+- `index.html`: Japanese landing page
+- `en/index.html`: English landing page
+- `assets/site.css`: responsive stylesheet
+- `assets/*.svg`: original conceptual diagrams (placeholders for actual research images)
+- `SITE-COPY-JA.md`: Japanese copy and editorial notes
+- `CONTENT-AND-CHECKLIST.md`: editorial and pre-release checks
+- `PREVIEW.md`: local preview instructions
 
-AI・IoT・ロボティクス等の情報技術と数理的手法を活用し、持続可能な社会システムの実現を目指す研究室の研究内容・成果を紹介します。
+## Local preview
+Run `python3 -m http.server 8000` in the repository root and open `http://localhost:8000/`. For a quick check, open `index.html` directly in a browser.
 
-現在進行中の社会実装（バイオマス発電、農業ロボット、秘匿集合積演算による医療データ連携、離床予測、VR動作学習支援）を中心とし、数学知識管理（Mizar Evolution、VS Code拡張、MML検索・閲覧、MML拡充）と数学的知識発見（IntSeqBERT）も紹介します。
+This repository is private. **Do not enable GitHub Pages before reviewing publication-ready content, links and permissions.**
 
-「現在の研究」「主な研究成果」「これまでの研究実績」「学生・ゼミ活動」を区分します。2026年度の指導学生数は3年生6名、4年生1名、大学院生0名です。
+## Content policy
+Current research: biomass plant AI, agricultural robotics, privacy-preserving medical record linkage, RFID-based bed-exit prediction, VR motion learning, Mizar Evolution, IntSeqBERT. Distinguish active projects from previous research outputs. Show student counts in aggregate only (2026: third-year 6, fourth-year 1, graduate 0). Avoid personal student information and confidential partner data.
 
-## 公開とプレビュー
-
-現時点では**非公開リポジトリのまま**制作し、GitHub Pagesを有効にしません。サイト本体を登録した後、ローカルで `index.html` を開く、または `python -m http.server 8000` を使って確認します。
-
-## 作業状況
-
-既存のホームページ試作版を移行する準備を進めています。現時点ではREADMEのみを登録しています。サイト本体は未登録です。
+Some project images are conceptual diagrams, not photos of actual installations; replace with approved research figures when available.
